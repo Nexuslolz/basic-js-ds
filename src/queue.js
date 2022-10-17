@@ -26,14 +26,7 @@ class Queue {
   }
   getUnderlyingList() {
     let current = this.peak
-
-    // while (current.position !== null) {
-    //   result + current
-    //   current = current.position
-    //   if (!(current.position)) {
     return current
-    // }
-    // }
   }
 
   enqueue(item) {
